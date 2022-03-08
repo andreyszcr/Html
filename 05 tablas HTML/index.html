@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablas en html</title>
+</head>
+<body>
+        <!-- Tbals convensionales-->
+        <table border>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+            <tr>
+                <td>Andrey</td>
+                <td>Sanchez</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>Perez</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Lopez</td>
+                <td>25</td>
+            </tr>
+        </table>
+        <!-- tabla con atributo colspan-->
+        <!-- Tabla con atributo colspan -->
+        <table border>
+        <tr>
+            <th colspan="2">Datos Personales</th>
+            <th colspan="3">Domicilio</th>
+        </tr>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Calle</th>
+            <th>Codigo Postal</th>
+            <th>Localidad</th>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>Jimenéz</td>
+            <td>Serrano Galvache 33</td>
+            <td>28030</td>
+            <td>Madrid</td>
+        </tr>
+        </table> 
+        <!-- Tabla con atributo rowspan-->
+        <table border>
+            <tr>
+                <th>Temperatura</th>
+                <th>mes</th>
+                <td>enero</td>
+                <td>febrero</td>
+                <td>marzo</td>
+                <tr>
+                    <th rowspan="2">Primer tristique</th>
+                    <th>temperatura maxima</th>
+                    <td>21</td>
+                    <td>22</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <th>Temperatura mimino</th>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+            </tr>
+        </table>
+</body>
+</html>
