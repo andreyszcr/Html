@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Elemento video`s-->
+     <video src="media/people.mp4"
+     width="640"
+     controls
+     ></video>
+    <!--Elemento video`s-->
+    <video src="media/people.mp4"
+    width="640"
+    controls 
+    preload="none"
+    poster="img/screen1.png"
+    ></video>
+    <!--Elemento video subtitle-->
+    <video width="640" controls>
+        <source src="media/people.mp4">
+        <track src="media/sub_es.vtt"
+                scrlang="es"
+                label="Castellano"
+                default>
+                
+        <track src="media/sub_en.vtt"
+               scrlang="en"
+               label="Ingles"
+                default>
+                
+    </video>
+</body>
+</html>
