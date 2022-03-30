@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- formularios de busqueda sin boton -->
+    <hr>
+    <form >
+        <input type="search" placeholder="Search...">
+
+    </form>
+    <hr>
+    <form >
+        <label for="cantidad">Cantidad</label>
+        <input type="number" max="10" min="0" step="2" id="cantidad">
+        <input type="submit" value="add">
+    </form>
+    <hr>
+    <form>
+        <label for="date">Fecha de nacimiento</label>
+        <input type="date" id="date" min="1900-01-01" max="2050-12-31">
+        <input type="submit" value="add">
+    </form>
+    <hr>
+    <!--formularioscon radio botones-->
+    <form >
+        <label for="hombre">Hombre</label>
+        <input type="radio"value="Hombre" name="sexo" id="hombre">
+        <label for="mujer">Mujer</label>
+        <input type="radio"value="Mujer"  name="sexo" id="mujer">
+        <label for="nc">prefiero no contestar</label>
+        <input type="radio"value="nc"  name="sexo" id="nc">
+    </form>
+    <hr>
+    <!--formularios con input embedido dentro de laberl-->
+    <form>
+        <label>
+            <input type="radio" value="futbol" name="deporte">
+            Futbol
+        </label>
+        <label>
+            <input type="radio" value="baloncesto" name="deporte">
+            Futbol
+        </label>
+    </form>
+    <hr>
+    <!--formularios con checkbox-->
+    <form>
+        <label>
+            Futbol
+            <input type="checkbox" name="pintura" value="si" checked>
+        </label>
+        <label>
+            Escultura
+            <input type="checkbox" name="escultura" value="si">
+        </label>
+        <label>
+            literatura
+            <input type="checkbox" name="literatura" value="si">
+        </label>
+    </form>
+    <hr>
+    <!--formularios con select-->
+    <form>
+        <label for="deporte"> seleccione el deporte favorito</label>
+        <select name="deporte" id="deporte">
+            <option value="futbol" selected>futbol</option>
+            <option value="baloncesto">baloncesto</option>
+            <option value="tenis">tenis</option>
+            <option value="natacion">natacion</option>
+        </select>
+    </form>
+    <hr>
+    <!--formularios con elemento text area-->
+    <form>
+        <label for="comentario">comentario</label>
+        <textarea id="comentario" cols="30" rows="10"></textarea>
+    </form>
+    <hr>
+    <!--formularios con elemento button-->
+    <form>
+        <label for="old-pass">antigua contrasena</label>
+        <input type="password" name="old-pass" id="old-pass">
+        <label for="new-pass">nueva contrasena</label>
+        <input type="password" name="new-pass" id="old-pass">
+        <button>candelar</button>
+        <button type="submit">guardar</button>
+    </form>
+</body>
+</html>
