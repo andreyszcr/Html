@@ -1,0 +1,34 @@
+/*implemenatcion de guente*/
+@font-face
+{
+    font-family: 'send';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/SendFlowers-Regular.ttf');
+}
+
+/*implementacion de fuente externa*/
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+
+
+
+
+body{
+    /*font-family: 'Courier New', Courier, monospace;*/
+    font-family: 'Send Flowers',sans-serif;
+
+}
+h1{
+    font-size:32px;   
+    font-family: 'send', serif;
+}
+p{
+    font-size:22px;
+}
+
+.cita{
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    padding: 40px;
+}
