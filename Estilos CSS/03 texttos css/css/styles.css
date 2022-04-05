@@ -11,11 +11,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
 
 
-
+/*color de la seleccion*/
+*::selection {
+    background-color:darkmagenta;
+    color: white;
+}
 
 body{
     /*font-family: 'Courier New', Courier, monospace;*/
     font-family: 'Send Flowers',sans-serif;
+    color:#616161;
 
 }
 h1{
@@ -24,6 +29,8 @@ h1{
 }
 p{
     font-size:22px;
+    line-height:1.5;
+    text-align: left;/*Valor pro defecto*/
 }
 
 .cita{
@@ -31,4 +38,30 @@ p{
     font-style: italic;
     text-align: center;
     padding: 40px;
+    color:#dd3557;
+}
+/*sombrweado de textos*/
+.sombreado{
+    text-shadow: 2px -2px 4px grey;
+
+    font-size:22px;
+}
+
+/*subrayado de textos*/
+.subrayado{
+   /*  text-decoration-line: underline;
+    text-decoration-color: #dd3557;
+    text-decoration-style: wavy; */
+    text-decoration:underline #dd3557 wavy; /*Propiedad short hand*/
+}
+
+/*propiedades de capitalizacion*/
+.mayusc{
+    text-transform: uppercase;
+}
+.minusc{
+    text-transform: lowercase;
+}
+.capit{
+    text-transform: capitalize;
 }

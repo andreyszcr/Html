@@ -1,0 +1,47 @@
+.borde-naranja{
+    border: 1px solid orange;
+}
+.caja-1{
+    width: 500px;
+    height: 250px;
+    background-color: orange;
+}
+.caja-2{
+    width: 500px;
+    height: auto;
+    background-color: plum;
+    font-size: 20px;
+    font-weight: Courier;
+}
+.caja-3{
+    width: 50%;
+    height: 20px;
+    background-color: #dd3557;
+}
+/* desboradamiento en css*/
+.cita{
+    width: 80%;
+    height: 80px;
+    background-color: lightgray;
+    margin: 0 auto;
+    font-size: 40px;
+   /*overflow: hidden; oculta contenido  */
+   overflow-y:auto; /*scroll solo cuando es necesario*/
+}
+.responsive{
+    max-width: 100%;
+
+}
+.card{
+    width: 33.33333%;
+    min-width: 220px;
+    height: 260px;
+    box-shadow: 2px 2px 4px grey;
+    border-radius:5px;
+    
+}
+
+
+
+
+
